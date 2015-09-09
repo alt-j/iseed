@@ -1,0 +1,9 @@
+{
+    "preset": "yandex",
+
+    "excludeFiles": [
+        "build/**",
+        "node_modules/**",
+        ".git/**"
+    ]
+}
