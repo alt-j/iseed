@@ -4,7 +4,7 @@ Based on advice on the [lecture about infrastructure at Yandex](http://alt-j.git
 ## Quick start
 ```
 git clone git@github.com:alt-j/iseed.git
-cd js-seed
+cd iseed
 npm install
 npm build
 ```
@@ -27,7 +27,6 @@ Then open the link in your favorite browser: `build/index.html`.
 
 ### Project structure
 ```
-.enb                ENB config for building project
 .git-hooks          Git hooks
 src                 Source code
 src/assets          Static data
@@ -49,7 +48,7 @@ npm run lint
 ### Run tests
 Run tests:
 ```
-npm test
+npm run test
 ```
 
 ## Contribution
