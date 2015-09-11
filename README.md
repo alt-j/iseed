@@ -1,6 +1,8 @@
 # iSeed
 Based on advice on the [lecture about infrastructure at Yandex](http://alt-j.github.io/front-end-infrastructure/).
 
+[Russian version](https://github.com/alt-j/iseed/blob/master/README.ru.md).
+
 ## Quick start
 ```
 git clone git@github.com:alt-j/iseed.git
