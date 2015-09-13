@@ -1,12 +1,27 @@
 {
   "name": "iseed",
   "description": "Start a frontend project in under 5 minutes, with full test and build infrastructure.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Andrey Morozov <alt-j@yandex-team.ru>",
   "contributors": [{
     "name": "Alexander Tarmolov",
     "email": "hevil@yandex-team.ru"
   }],
+  "keywords": [
+    "frontend",
+    "project",
+    "stub",
+    "seed",
+    "template",
+    "infrastructure",
+    "hooks",
+    "hook",
+    "lint",
+    "test",
+    "development",
+    "karma",
+    "webpack"
+  ],
   "repository": "https://github.com/alt-j/iseed",
   "devDependencies": {
     "autoprefixer-loader": "1.0.0",
@@ -38,6 +53,9 @@
     "validate": "npm run lint && npm run test",
     "lint": "jscs . && eslint .",
     "test": "karma start karma.conf.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT"
 }
