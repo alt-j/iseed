@@ -36,22 +36,33 @@ src/js              Javascript files
 src/styles          CSS or Stylus files
 ```
 
-## How to develop?
-### Build project
+## Commands
+
+### For build project
 ```
 npm run build
 ```
 
-### Static code analyser and codestyle checking
+Builded version located in `./build` directory.
+
+### For development
+```
+npm run dev
+```
+
+After that open [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/) with your favorite browser.
+
+### For static code analyse and codestyle checking
 ```
 npm run lint
 ```
 
-### Run tests
+### For run tests
 Run tests:
 ```
 npm run test
 ```
+
 
 ## Contribution
   * [Codestyle](https://github.com/yandex/codestyle/blob/master/javascript.md)

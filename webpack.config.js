@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var environment = process.env.NODE_ENV || 'development';
 
 module.exports = {
@@ -29,6 +30,11 @@ module.exports = {
     },
 
     plugins: [
+        new HtmlWebpackPlugin({
+            inject: 'body',
+            filename: 'index.html',
+            template: __dirname + '/src/index.html'
+        }),
         new webpack.DefinePlugin({'process.env.NODE_ENV': '"' + environment + '"'}),
         new webpack.optimize.DedupePlugin(),
         new webpack.optimize.UglifyJsPlugin({
@@ -36,5 +42,9 @@ module.exports = {
                 warnings: false
             }
         })
-    ]
+    ],
+
+    devServer: {
+        contentBase: './build'
+    }
 };
