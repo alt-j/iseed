@@ -15,7 +15,7 @@ npm build
 ### Функциональность
   * [Статический анализатор кода jsint и проверка стиля кодирования jscs](#static-code-analyser-and-codestyle-checking)
   * [Юнит тесты с использованием mocha и phantomjs](#run-tests)
-  * Используется [git hooks](http://github.com/tarmolov/git-hooks) для валидации кода и запуска тестов перед коммитом.
+  * Используется [git hooks](http://github.com/tarmolov/git-hooks) для валидации кода и запуска тестов перед коммитом
 
 ### Инструменты
   * [eslint](http://eslint.org/) — инструмент для нахождения ошибок и потенциальных угроз в JavaScript коде
@@ -30,18 +30,18 @@ npm build
 .git-hooks          Git hooks
 src                 Исходный код
 src/assets          Статика
-src/js              Javascript файлы
-src/styles          CSS или Stylus файлы
+src/js              Javascript-файлы
+src/styles          CSS- или Stylus-файлы
 ```
 
 ## Команды
 
-### Для собрки проект
+### Для сборки проекта
 ```
 npm run build
 ```
 
-Собранная версия проекта находится в `./build` директории.
+Собранная версия проекта находится в директории `./build`.
 
 ### Для разработки
 ```
