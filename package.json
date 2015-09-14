@@ -1,7 +1,7 @@
 {
   "name": "iseed",
-  "description": "Start a frontend project in under 5 minutes, with full test and build infrastructure.",
-  "version": "1.1.0",
+  "description": "Frontend project template (for a quick star), with full test and build infrastructure.",
+  "version": "1.1.1",
   "author": "Andrey Morozov <alt-j@yandex-team.ru>",
   "contributors": [
     {
