@@ -17,7 +17,7 @@ Then open the link in your favorite browser: `build/index.html`.
 ### Features
   * [Static code analyser and codestyle checking with jsint and jscs](#static-code-analyser-and-codestyle-checking)
   * [Unit tests with mocha and phantomjs](#run-tests)
-  * Using [git hooks](http://github.com/tarmolov/git-hooks) to lint your code and run tests before each commit
+  * Using [git hooks](https://github.com/tarmolov/git-hooks-js) to lint your code and run tests before each commit
 
 ### Tools
   * [eslint](http://eslint.org/) — a tool to detect errors and potential problems in JavaScript code
