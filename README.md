@@ -23,7 +23,7 @@ Then open the link in your favorite browser: `build/index.html`.
   * [eslint](http://eslint.org/) — a tool to detect errors and potential problems in JavaScript code
   * [jscs](http://jscs.info/) — a code style checker for javascript
   * [git-hooks](https://github.com/tarmolov/git-hooks-js) — a tool for git hooks managment
-  * [mocha](http://visionmedia.github.io/mocha/) + [chai](http://chaijs.com/) + [sinon](http://sinonjs.org/) + [phantomjs](http://phantomjs.org/) + [karma](http://karma-runner.github.io/)— testing client javascript
+  * [mocha](https://mochajs.org/) + [chai](http://chaijs.com/) + [sinon](http://sinonjs.org/) + [phantomjs](http://phantomjs.org/) + [karma](http://karma-runner.github.io/)— testing client javascript
 
 ## How it works
 
