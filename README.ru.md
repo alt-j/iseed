@@ -21,7 +21,7 @@ npm build
   * [eslint](http://eslint.org/) — инструмент для нахождения ошибок и потенциальных угроз в JavaScript коде
   * [jscs](http://jscs.info/) — проверка стиля кодирования
   * [git-hooks](https://github.com/tarmolov/git-hooks-js) — инструмент для управления git hooks
-  * [mocha](http://visionmedia.github.io/mocha/) + [chai](http://chaijs.com/) + [sinon](http://sinonjs.org/) + [phantomjs](http://phantomjs.org/) + [karma](http://karma-runner.github.io/)— тестирование клиентского javascript кода
+  * [mocha](https://mochajs.org/) + [chai](http://chaijs.com/) + [sinon](http://sinonjs.org/) + [phantomjs](http://phantomjs.org/) + [karma](http://karma-runner.github.io/)— тестирование клиентского javascript кода
 
 ## Как это работает
 
